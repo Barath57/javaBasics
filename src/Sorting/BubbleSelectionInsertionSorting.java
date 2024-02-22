@@ -27,7 +27,8 @@ public class BubbleSelectionInsertionSorting {
             while (j>=0 && arr[j] >currenVal) {
                 arr[j+1] = arr[j];
                 j--;
-            }
+            } 
+            
             arr[j+1] = currenVal; 
         }
         return arr;
