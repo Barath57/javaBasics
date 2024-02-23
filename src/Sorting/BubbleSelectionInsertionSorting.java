@@ -16,8 +16,7 @@ public class BubbleSelectionInsertionSorting {
     System.out.println("**********insertionsort***********");
     int[] arr3=insertionsort(arr);
     for(int i = 0; i< insertionsort(arr).length; i++){
-        System.out.println
-        (arr3[i]);
+        System.out.println(arr3[i]);
 }
 }
     public static int[] insertionsort(int arr[] ) {
@@ -28,7 +27,7 @@ public class BubbleSelectionInsertionSorting {
                 arr[j+1] = arr[j];
                 j--;
             } 
-            
+
             arr[j+1] = currenVal; 
         }
         return arr;
@@ -56,8 +55,10 @@ public static int[] bobbleSort(int arr[] ) {
          arr[i]=arr[j];
         arr[j]=temp;
     }
-  }        
-}
+  }  
+    }
     return arr;
-   }
 }
+   
+}
+
