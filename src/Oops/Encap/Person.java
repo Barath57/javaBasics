@@ -3,7 +3,7 @@ package Oops.Encap;
 public class Person {
     String firstName, lastName, salutation, gender , ssn , address , zip , phone , dob , bloodGroup ;
     String age;
-    public Person(String firstName,String lastName){
+    public Person(String firstName,String lastName, int i){
         this.firstName = firstName;
         this.lastName = lastName;
 
@@ -52,5 +52,9 @@ public class Person {
     public void setGender(String string) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setGender'");
+    }
+    public void setAge(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setAge'");
     }
 }
