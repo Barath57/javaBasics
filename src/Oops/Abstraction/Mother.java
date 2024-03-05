@@ -1,6 +1,9 @@
 package Oops.Abstraction;
 
 public class Mother {
-     public Mother(String );
+     public static void main(String[] args) {
+          
+     }
+     public Mother( );
     
 }

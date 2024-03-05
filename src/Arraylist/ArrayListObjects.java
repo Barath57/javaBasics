@@ -33,4 +33,22 @@ public class ArrayListObjects {
             System.out.println("age : "+person.getAge());
         });
     }
+
+
+    public static ArrayList<alPerson> sort (ArrayList<alPerson>alPersons){
+        for (int i = 0; i <alPersons.size(); i++) {
+            for (int j = 0; j <alPersons.size(); j++) {
+                if (alPersons.get(i).getName().compareTo(alPersons.get(j).getName())); {
+                   alPerson temp=alPersons.get(i);
+                    alPersons.set(i,alPersons.get(j));
+                    alPersons.set(j,temp);
+                }
+                
+            }
+            
+        }
+        return alPersons;
+    }
+
+    
 }
