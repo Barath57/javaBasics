@@ -8,6 +8,9 @@ public class Person {
         this.lastName = lastName;
 
     }
+    public Person(String string, String string2) {
+        //TODO Auto-generated constructor stub
+    }
     public String getFirstName() {
         return firstName;
     }
