@@ -28,7 +28,17 @@ public class DFSMain {
 		System.out.println("*POST-ORDER*");
 		dfsLogic.postOrder(root);
 
+       
 
+		System.out.println("BFS print"); 
+		dfsLogic.printBFD(root);
+		System.out.println();
+		
+		System.out.println("------ mirror ----------"); 
+		dfsLogic.mirror(root);
+		
+		System.out.println("BFS print"); 
+		dfsLogic.printBFD(root);
 	}
 
 }
