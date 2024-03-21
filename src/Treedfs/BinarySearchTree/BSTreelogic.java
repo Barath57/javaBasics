@@ -26,7 +26,6 @@ package Treedfs.BinarySearchTree;
                 System.out.println("parent: " + currentRoot.value + " right: " + value);
                 currentRoot.right = insert(currentRoot.right, value);
             }
-    
             return currentRoot;
         }
 
@@ -50,10 +49,8 @@ package Treedfs.BinarySearchTree;
             if (currentNode.value == value) {
                 return currentNode;
             } else if (currentNode.value > value) {
-                // System.out.println("left: " + currentNode.value);
                 return  find(currentNode.left, value);
             } else {
-                // System.out.println("right: " + currentNode.value);
                return find(currentNode.right, value);
             }
         }
