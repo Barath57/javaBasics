@@ -25,7 +25,7 @@ public class Pattern6tasrecursive {
             }
             System.out.println();
             return pattern67(++i,0,mid,n);
-    }
-    return n;
+      }
+      return n;
   }
 }
