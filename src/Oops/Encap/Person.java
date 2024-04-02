@@ -8,9 +8,6 @@ public class Person {
         this.lastName = lastName;
 
     }
-    public Person(String string, String string2) {
-        //TODO Auto-generated constructor stub
-    }
     public String getFirstName() {
         return firstName;
     }
@@ -43,21 +40,5 @@ public class Person {
     }
     public String getPhone() {
         return phone;
-    }
-    public void setAge(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setAge'");
-    }
-    public void setBloodGroup(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setBloodGroup'");
-    }
-    public void setGender(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setGender'");
-    }
-    public void setAge(int i) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setAge'");
     }
 }
